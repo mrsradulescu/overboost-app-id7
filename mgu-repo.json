@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "id": "overboost",
+      "kind": "app",
+      "path": "apps/overboost",
+      "build": "unit",
+      "title": "OVERBOOST",
+      "description": "M Vitals, Drag Timer, Fault Scanner and Engine Config in one app for iDrive 7.",
+      "mguHmi": [
+        "ID7"
+      ],
+      "requires": {
+        "app-privacy": "1.7.1",
+        "mgu-render": "0.6.9"
+      },
+      "uninstallable": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "overboost",
+  "version": "1.7.1",
+  "description": "M Vitals, Drag Timer, Fault Scanner and Engine Config in one app",
+  "main": "javascript/runner.js",
+  "private": false,
+  "author": "owner",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "oapAppSettings": {
+    "maxDiskUsage": 20971520,
+    "cpuLimit": 60,
+    "memoryThresholdKB": 196608,
+    "priority": "PRIO_LOW",
+    "visibility": "FOREGROUND",
+    "latencyClass": "FOREGROUND",
+    "loggingId": "OAB0",
+    "userLoginRequired": false,
+    "backgroundPriority": 200,
+    "someipManifest": "manifest.json"
+  },
+  "files": [
+    "config",
+    "rhmiData",
+    "package.json",
+    "npm-shrinkwrap.json",
+    "permissions.json",
+    "javascript",
+    "manifest.json"
+  ],
+  "dependencies": {
+    "oap-sdk": "24.10.2"
+  },
+  "mguLocalOnly": true,
+  "mguHmi": [
+    "ID7"
+  ]
+}

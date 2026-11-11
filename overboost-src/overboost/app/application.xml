@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <container id="1" type="state" widget="LT_State_Wide_List">
+        <layoutGroup id="22" name="List">
+            <property id="3" value="1"/>
+            <component id="2" type="label" widget="LT_Label_1Graphic_Scalable">
+                <property id="2" value="1"/>
+                <property id="3" value="0"/>
+            </component>
+            <component id="3" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="4" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="5" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="6" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="7" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="8" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="9" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="10" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="11" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="12" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="13" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="14" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="15" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="16" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="17" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="18" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+            <component id="19" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+        </layoutGroup>
+        <layoutGroup id="21" name="Titlebar">
+            <component id="20" type="title"/>
+        </layoutGroup>
+    </container>
+</application>

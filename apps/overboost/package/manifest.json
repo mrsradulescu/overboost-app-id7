@@ -1,0 +1,230 @@
+{
+  "proxies": {
+    "de.bmw.infotainment.hmi.entrypoint.EntryPoint": "*",
+    "de.bmw.infotainment.hmi.entrypoint.EntryPointManager": "*",
+    "de.bmw.infotainment.hmi.remote.RemoteHmi": "*",
+    "de.bmw.infotainment.hmi.remote.RemoteHmiApplication": "*",
+    "de.bmw.infotainment.hmi.resourcemanagement.ResourceBundle": "*",
+    "de.bmw.infotainment.hmi.resourcemanagement.ResourceManager": "*",
+    "de.bmw.infotainment.hmi.resourcemanagement.StringBundle": "*",
+    "de.bmw.infotainment.hmi.usecasemanagement.UseCaseInstance": "*",
+    "de.bmw.infotainment.hmi.usecasemanagement.UseCaseProvider": "*",
+    "de.bmw.infotainment.hmi.usecasemanagement.UseCaseRegistry": {
+      "attributes": {
+        "useCaseIds": "r"
+      },
+      "broadcasts": [
+        "registryUpdate"
+      ],
+      "instances": "*",
+      "methods": [
+        "getProvider"
+      ]
+    },
+    "de.bmw.infotainment.lifecycle.lifecycle.Lifecycle": {
+      "attributes": {
+        "powerStateDetailed": "rs"
+      },
+      "instances": "Front"
+    },
+    "de.bmw.infotainment.personalization.SessionManager": "*",
+    "de.bmw.infotainment.personalization.UserAccount": {
+      "attributes": {
+        "firstName": "rs",
+        "gcid": "rs",
+        "id": "r",
+        "name": "rs",
+        "type": "r"
+      },
+      "broadcasts": [
+        "requestUpdateConnectedDriveCredentials"
+      ],
+      "instances": "*"
+    },
+    "de.bmw.infotainment.dataprivacy.privacysettings.PrivacySettings": {
+      "attributes": {
+        "allSettings": "rs"
+      },
+      "instances": "1",
+      "methods": [
+        "addOrUpdateSetting",
+        "setDynamicAvailable",
+        "setDynamicEnable"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oap.AppBookmarks": {
+      "instances": [
+        "${userId}"
+      ],
+      "methods": [
+        "registerBookmark"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oap.PrivateEntryPoint": {
+      "instances": [
+        "${userId}"
+      ],
+      "methods": [
+        "registerEntryPoint",
+        "unregisterEntryPoint",
+        "setSelected",
+        "setAvailability"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oap.WakeUpOnDemand": {
+      "instances": [
+        "${userId}"
+      ],
+      "methods": [
+        "registerParticipant",
+        "unregisterParticipant"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oap.WodControl": {
+      "instances": "${userId}",
+      "methods": [
+        "offerService",
+        "stopOfferingService"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oapcontroller.OAPController": "*",
+    "de.bmw.infotainment.telematic.provisioning.Provisioning": {
+      "broadcasts": [
+        "provisioningDataJSON"
+      ],
+      "instances": "1",
+      "methods": [
+        "getValueJSON",
+        "setFilterForProvisioningData"
+      ]
+    },
+    "de.bmw.infotainment.vehicle.Vehicle": {
+      "instances": "1",
+      "attributes": {
+        "statusNewCurrentUnitsStatusExt": "rs"
+      }
+    },
+    "de.bmw.infrastructure.EnvironmentalInformation": {
+      "instances": "1",
+      "attributes": {
+        "ExteriorTemperature": "s",
+        "UnitBN2020": "rs"
+      }
+    },
+    "org.genivi.nodestatemanager.Consumer": {
+      "broadcasts": [
+        "ShutdownEvents",
+        "SessionStateChanged"
+      ],
+      "instances": "NSMConsumer",
+      "methods": [
+        "LifecycleRequestComplete",
+        "RegisterShutdownClient",
+        "UnRegisterShutdownClient"
+      ]
+    },
+    "de.bmw.infotainment.KombiInterface_2": {
+      "instances": "1",
+      "attributes": {
+        "ccList": "rs",
+        "newCCMessage": "rs"
+      }
+    },
+    "de.bmw.infotainment.checkcontrol.CheckControlMaster": {
+      "instances": "1",
+      "attributes": {
+        "basicList": "rs"
+      }
+    },
+    "de.bmw.infotainment.controlelements.FrontCCU": {
+      "instances": "1",
+      "attributes": {
+        "statusRotaryEncoderState": "rs"
+      }
+    },
+    "de.bmw.infotainment.drivingexcitement.FES": {
+      "instances": "1",
+      "attributes": {
+        "statusSwitchDriveDynamicSport2": "rs",
+        "statusVehicleDynamicEngine": "rs",
+        "statusActualValueTorque2": "rs",
+        "statusFESVehicleDynamicSwitchHMI": "rs"
+      }
+    },
+    "de.bmw.infotainment.misc.MDrive": {
+      "instances": "1",
+      "attributes": {
+        "statusMSystem": "rs",
+        "dataDisplayGearbox": "s"
+      }
+    },
+    "de.bmw.infotainment.vehicle.CDS": {
+      "instances": "1",
+      "attributes": {
+        "statusEngineSpeed2": "rs",
+        "statusEngineTemperature": "rs"
+      }
+    },
+    "de.bmw.infotainment.vehicle.CDS2": {
+      "instances": "1",
+      "attributes": {
+        "statusLongitudinalAccelerationMassCenter": "rs",
+        "statusLateralAccelerationMassCenter": "rs"
+      }
+    },
+    "de.bmw.infotainment.vehicle.TPMS": {
+      "instances": "1",
+      "attributes": {
+        "statusTyreTemperature": "rs",
+        "statusTyrePressure": "rs",
+        "statusTargetTyrePressure": "rs"
+      }
+    },
+    "de.bmw.infotainment.vehicle.Vehicle2": {
+      "instances": "1",
+      "attributes": {
+        "statusCarSpeed2": "rs"
+      }
+    },
+    "de.bmw.infrastructure.VehicleCondition": {
+      "instances": "1",
+      "attributes": {
+        "VehicleCondition": "s"
+      }
+    },
+    "de.bmw.infrastructure.VehicleInformation": {
+      "instances": "1",
+      "attributes": {
+        "statusGearboxDrive": "s",
+        "DataPowerTrain2": "s"
+      }
+    },
+    "de.bmw.infrastructure.analytics.BasicDataSet": {
+      "instances": "1",
+      "attributes": {
+        "basicDataSet": "s"
+      }
+    },
+    "com.harman.infotainment.systemfunctions.tasu.tasu.InternalTasu": {
+      "instances": "SystemFunctionsInternalTasuInst1",
+      "methods": [
+        "sendTasuRequest"
+      ],
+      "broadcasts": [
+        "sendTasuResponse"
+      ]
+    }
+  },
+  "services": {
+    "de.bmw.infotainment.telematic.oap.AppStatus": {
+      "instances": [
+        "${userId}"
+      ]
+    },
+    "de.bmw.infotainment.telematic.oap.TriggersControl": {
+      "instances": [
+        "${userId}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "id": "overboost_engine",
+  "title": "Engine Config",
+  "version": "1.1.0",
+  "screens": [
+    {
+      "name": "MAIN",
+      "kind": "canvas",
+      "title": "Engine Config",
+      "buttons": [
+        [
+          "BTN_SETTINGS",
+          "Settings"
+        ]
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "key": "arm",
+      "label": "Mode",
+      "type": "choice",
+      "default": "off",
+      "options": [
+        [
+          "off",
+          "Test version"
+        ],
+        [
+          "on",
+          "Live version"
+        ]
+      ]
+    },
+    {
+      "key": "hold",
+      "label": "Hold Open / Close",
+      "type": "choice",
+      "default": "on",
+      "options": [
+        [
+          "on",
+          "On · sent again every 15 s"
+        ],
+        [
+          "off",
+          "Off · the car takes over after ~20 s"
+        ]
+      ]
+    },
+    {
+      "key": "closeLimit",
+      "label": "Close: hand back above",
+      "type": "choice",
+      "default": "4000",
+      "options": [
+        [
+          "2500",
+          "2,500 rpm"
+        ],
+        [
+          "3000",
+          "3,000 rpm"
+        ],
+        [
+          "3500",
+          "3,500 rpm"
+        ],
+        [
+          "4000",
+          "4,000 rpm"
+        ],
+        [
+          "4500",
+          "4,500 rpm"
+        ],
+        [
+          "5000",
+          "5,000 rpm"
+        ],
+        [
+          "5500",
+          "5,500 rpm"
+        ],
+        [
+          "off",
+          "Never (not recommended)"
+        ]
+      ]
+    },
+    {
+      "key": "tuner",
+      "label": "Tuning software",
+      "type": "choice",
+      "default": "off",
+      "options": [
+        [
+          "off",
+          "Off · factory"
+        ],
+        [
+          "mhd",
+          "MHD · engine map, Max Cooling"
+        ]
+      ]
+    },
+    {
+      "key": "xdrive",
+      "label": "2WD Mode",
+      "type": "choice",
+      "default": "off",
+      "options": [
+        [
+          "off",
+          "Off"
+        ],
+        [
+          "on",
+          "On (non-M car)"
+        ]
+      ]
+    },
+    {
+      "key": "driveLink",
+      "label": "Sport Modes",
+      "type": "choice",
+      "default": "off",
+      "options": [
+        [
+          "off",
+          "Off · the flap stays as set"
+        ],
+        [
+          "on",
+          "On · the flap follows the driving mode"
+        ]
+      ]
+    },
+    {
+      "key": "modeSport",
+      "label": "Sport: flap",
+      "type": "choice",
+      "default": "open",
+      "options": [
+        [
+          "oem",
+          "OEM · the car decides"
+        ],
+        [
+          "open",
+          "Open"
+        ],
+        [
+          "close",
+          "Close"
+        ]
+      ]
+    },
+    {
+      "key": "modeComfort",
+      "label": "Comfort: flap",
+      "type": "choice",
+      "default": "oem",
+      "options": [
+        [
+          "oem",
+          "OEM · the car decides"
+        ],
+        [
+          "open",
+          "Open"
+        ],
+        [
+          "close",
+          "Close"
+        ]
+      ]
+    },
+    {
+      "key": "modeEco",
+      "label": "Eco Pro: flap",
+      "type": "choice",
+      "default": "close",
+      "options": [
+        [
+          "oem",
+          "OEM · the car decides"
+        ],
+        [
+          "open",
+          "Open"
+        ],
+        [
+          "close",
+          "Close"
+        ]
+      ]
+    },
+    {
+      "key": "modeAdaptive",
+      "label": "Adaptive: flap",
+      "type": "choice",
+      "default": "oem",
+      "options": [
+        [
+          "oem",
+          "OEM · the car decides"
+        ],
+        [
+          "open",
+          "Open"
+        ],
+        [
+          "close",
+          "Close"
+        ]
+      ]
+    },
+    {
+      "key": "theme",
+      "label": "Colour theme",
+      "type": "choice",
+      "default": "m_tricolour",
+      "options": [
+        [
+          "m_red",
+          "M Red"
+        ],
+        [
+          "m_tricolour",
+          "M Tricolour"
+        ],
+        [
+          "ice",
+          "Ice White"
+        ],
+        [
+          "amber",
+          "Night Amber"
+        ]
+      ]
+    }
+  ]
+}

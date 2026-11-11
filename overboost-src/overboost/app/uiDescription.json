@@ -1,0 +1,419 @@
+{
+ "schemaVersion": "1.3.0",
+ "containers": {
+  "1": {
+   "type": "state",
+   "name": "MAIN",
+   "components": {
+    "2": {
+     "type": "label",
+     "name": "LOGO",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 0,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Graphic": {
+        "value": "",
+        "type": "Text"
+       }
+      }
+     ]
+    },
+    "3": {
+     "type": "label",
+     "name": "L1",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L1",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "4": {
+     "type": "label",
+     "name": "L2",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L2",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "5": {
+     "type": "label",
+     "name": "L3",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L3",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "6": {
+     "type": "label",
+     "name": "L4",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L4",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "7": {
+     "type": "label",
+     "name": "L5",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L5",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "8": {
+     "type": "label",
+     "name": "L6",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L6",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "9": {
+     "type": "label",
+     "name": "L7",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L7",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "10": {
+     "type": "label",
+     "name": "L8",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_L8",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "11": {
+     "type": "button",
+     "name": "B1",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B1",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "12": {
+     "type": "button",
+     "name": "B2",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B2",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "13": {
+     "type": "button",
+     "name": "B3",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B3",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "14": {
+     "type": "button",
+     "name": "B4",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B4",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "15": {
+     "type": "button",
+     "name": "B5",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B5",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "16": {
+     "type": "button",
+     "name": "B6",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B6",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "17": {
+     "type": "button",
+     "name": "B7",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B7",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "18": {
+     "type": "button",
+     "name": "B8",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B8",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "19": {
+     "type": "button",
+     "name": "B9",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_B9",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "20": {
+     "type": "title",
+     "name": "MAIN_TITLE",
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_MAIN_TITLE",
+        "type": "StringId"
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

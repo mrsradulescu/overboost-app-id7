@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.3.0",
+  "application": {
+    "uuid": "92d85ed5-7ceb-5055-ae16-7d382cdf489e",
+    "type": "OnlineApp",
+    "name": "overboost",
+    "vendor": "custom",
+    "version": "1.7.1",
+    "defaultLanguage": "en_GB",
+    "stringBundleUuid": "92aa0599-c989-5ed4-ae09-5c48a0d96f3f",
+    "resourceBundleUuid": "f324cd7a-5604-5f43-b8df-c28463cbfe0b",
+    "entryPoints": [
+      {
+        "name": "OVERBOOST_ENTRY",
+        "uuid": "aa7aad52-f4eb-52d4-9b8f-9ac6877e3b12",
+        "textId": "SID_OVERBOOST_TITLE",
+        "icon": "overboost_icon.png",
+        "insertionStateId": 20974,
+        "insertionFocusId": 2,
+        "insertionMode": "INSERT_BELOW",
+        "insertionOrder": 0,
+        "insertionPriority": 0,
+        "previewType": "NONE",
+        "bookmarkable": true,
+        "private": null,
+        "appearance": "DEFAULT",
+        "isGroupHeader": false,
+        "insertionGroup": 0
+      }
+    ],
+    "uiDescriptions": [
+      {
+        "applicationFilePath": "./uiDescriptions/ID7/application.xml",
+        "uiDescriptionFilePath": "./uiDescriptions/ID7/uiDescription.json",
+        "hmi": [
+          "ID7"
+        ]
+      }
+    ],
+    "variantGroups": [
+      {
+        "stringsPath": "./variantGroups/Common/texts",
+        "resourcesPath": "./variantGroups/Common/images",
+        "hmi": [
+          "ID7"
+        ],
+        "brands": [
+          "BMW"
+        ]
+      }
+    ]
+  }
+}
