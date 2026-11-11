@@ -173,7 +173,15 @@ function create(signals, log, opts) {
     /** the engine speed: live and fresh only */
     const rpm = () => fresh('rpm', RPM_STALE_MS);
     /** what 2WD (xdrive.js) reads as the car's data: live only, never the demo drive */
-    const carData = () => ({ demo: false, rpm: rpm(), speed: fresh('speed', SPEED_STALE_MS), stage: st.car.stage, condition: st.car.condition });
+    /** the speed for 2WD's "Stationary": a parked car sends no speed signal (the value is read once and does not change), so after
+     *  SPEED_STALE_MS "fresh" would call a standing car "no speed" and refuse. An old value still counts when it was standing
+     *  (< 0.5 km/h): a car that had been moving sends the changed value as it slows. An old moving value never counts. */
+    const speedNow = () => {
+        const f = fresh('speed', SPEED_STALE_MS);
+        if (f !== null) return f;
+        return typeof live.speed === 'number' && isFinite(live.speed) && live.speed < 0.5 && live.at && live.at.speed ? live.speed : null;
+    };
+    const carData = () => ({ demo: false, rpm: rpm(), speed: speedNow(), stage: st.car.stage, condition: st.car.condition });
 
     let auto = null;
     const watched = [];

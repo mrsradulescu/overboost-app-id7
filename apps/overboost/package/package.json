@@ -1,6 +1,6 @@
 {
   "name": "overboost",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "M Vitals, Drag Timer, Fault Scanner and Engine Config in one app",
   "main": "javascript/runner.js",
   "private": false,

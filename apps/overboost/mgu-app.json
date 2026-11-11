@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "id": "overboost",
- "version": "1.7.1",
+ "version": "1.7.2",
  "tree": "package",
  "modules": [
   "src/ob_main.js",
